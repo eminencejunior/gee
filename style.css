@@ -17,15 +17,17 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 div {
   height: 40%;
   background-color: white;
-  padding: 15px;
+  padding-left: 25px;
+  padding-right: 1.4em;
 }
 .me {
   font-size: 30px;
-  font-family: serif("");
 }
 .lol {
   height: 40%;
@@ -37,20 +39,28 @@ div {
 }
 button {
   background-color: hsl(158, 36%, 37%);
+  width: 18em;
+  height: 50px;
   color: white;
-  font-size: 20px;
-  margin: 60px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-right: 20px;
   border: hidden;
   border-radius: 5px;
 }
 .Gib {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 img {
+  padding-top: 20px;
   border-top: 2px;
   border-radius: 5px;
+  width: 50vh;
 }
 del {
   margin-right: 30px;
 }
+div {
+  border: 0%;
+  border-radius: 5px;
+}
+

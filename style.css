@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@100;400&display=swap");
 * {
   margin-left: 0%;
   padding: 0%;
@@ -10,21 +11,38 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 100px;
+  background-color: hsl(30, 38%, 92%);
 }
 section {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 0, 50px;
+}
+div {
+  height: 40%;
+  background-color: white;
+  padding: 15px;
 }
 .me {
-    margin-right: 5px;
+  font-size: 30px;
+  font-family: serif("");
+}
+.lol {
+  height: 40%;
+  background-color: white;
+}
+.money {
+  color: grey;
+  font-family: serif("montserrat");
+}
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-size: 20px;
+  margin: 60px;
+  border: hidden;
+  border-radius: 5px;
+}
+.Gib {
+  font-family: serif;
 }

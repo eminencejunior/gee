@@ -44,5 +44,13 @@ button {
   border-radius: 5px;
 }
 .Gib {
-  font-family: serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+img {
+  border-top: 2px;
+  border-radius: 5px;
+}
+del {
+  margin-right: 30px;
 }

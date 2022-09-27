@@ -6,6 +6,11 @@
 body {
   background-color: hsl(30, 38%, 92%);
 }
+@media screen and (min-width: 500px) {
+  body {
+    background-color: blue;
+  }
+}
 main {
   display: flex;
   flex-direction: column;
